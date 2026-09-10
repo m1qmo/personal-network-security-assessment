@@ -14,8 +14,6 @@ a set of prioritized fixes.
 
 ## Scope
 
-## Scope
-
 This assessment was performed only against my home network and devices I own.
 No external or third-party systems were scanned. Scanning networks without
 authorization is a criminal offence in the UK under the Computer Misuse Act
