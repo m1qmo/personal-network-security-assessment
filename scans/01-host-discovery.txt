@@ -1,0 +1,25 @@
+# Nmap 7.991 scan initiated Wed Sep 16 09:13:19 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sn -oN scans/01-host-discovery.txt 192.168.0.0/24
+Nmap scan report for 192.168.0.1
+Host is up (0.0040s latency).
+MAC Address: 18:35:D1:XX:XX:XX (Commscope)
+Nmap scan report for 192.168.0.10
+Host is up (0.054s latency).
+MAC Address: 18:7F:88:XX:XX:XX (Ring)
+Nmap scan report for 192.168.0.59
+Host is up (0.037s latency).
+MAC Address: 00:7D:60:XX:XX:XX (Apple)
+Nmap scan report for 192.168.0.84
+Host is up (0.093s latency).
+MAC Address: CA:AA:BD:XX:XX:XX (Unknown)
+Nmap scan report for 192.168.0.97
+Host is up (0.078s latency).
+MAC Address: 36:EE:AE:XX:XX:XX (Unknown)
+Nmap scan report for 192.168.0.101
+Host is up (0.082s latency).
+MAC Address: CA:AA:BD:XX:XX:XX (Unknown)
+Nmap scan report for 192.168.0.103
+Host is up (0.093s latency).
+MAC Address: CA:AA:BD:XX:XX:XX (Unknown)
+Nmap scan report for 192.168.0.21
+Host is up.
+# Nmap done at Wed Sep 16 09:13:24 2026 -- 256 IP addresses (8 hosts up) scanned in 4.49 seconds
