@@ -4,8 +4,8 @@
 Web admin interface exposed on port 80 without HTTPS
 
 ## Evidence:
-scans/03-router-serviceversion.txt
-screenshots/port80ss.png
+1. [Router Service/Version](scans/03-router-serviceversion.txt)
+2. [Port 80 admin panel screenshot](screenshots/port80ss.png)
 
 ## Risk rating:
 Medium
@@ -17,7 +17,7 @@ Because the interface uses HTTP instead of HTTPS, admin login credentials are se
 This is rated Medium rather than High because the interface is only reachable if an attacker is already on the local network somehow. If it were also reachable from the internet, this would be a High risk, since anyone could attempt to intercept or brute-force it.
 
 ## What to do about it to reduce the risk:
-As the scan displayed in scans/03-router-serviceversion.txt that port 80 is only HTTP and isn't encrypted, I still tried going with https://192.168.0.1/ to see if it works to use HTTPS but it failed and redirected me back to HTTP.
+As the scan displayed in [Router Service/Version](scans/03-router-serviceversion.txt) that port 80 is only HTTP and isn't encrypted, I still tried going with https://192.168.0.1/ to see if it works to use HTTPS but it failed and redirected me back to HTTP.
 
 To reduce the risk I've confirmed that WAN management is disabled so the interface is only reachable from inside my home network - this was the biggest risk reducer I could have done. I will avoid logging into the admin panel using public/shared Wi-Fi. And unfortunately I'll have to accept the risk of it and be cautious of how I log in.
 
