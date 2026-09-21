@@ -1,3 +1,18 @@
+## Project Write-up
+
+This project is documented step by step:
+
+1. [Network Discovery](docs/01-network-discovery.md)
+2. [Port and Service Scanning](docs/02-port-and-service-scanning.md)
+3. [Findings and Recommendations](docs/03-findings-and-recommendations.md)
+
+## Key Findings
+
+- **Medium** — Router's web admin interface reachable over unencrypted HTTP with no HTTPS available, exposing login credentials in plain text to anyone already on the network.
+- **Low/Informational** — Initial host discovery scan overreported live devices (8 vs. 5 actual), due to one device appearing under multiple IPs and the scanning machine itself being counted.
+
+Full details, evidence, and remediation in [Findings and Recommendations](docs/03-findings-and-recommendations.md).
+
 # Home Network Vulnerability Scan
 
 A security assessment of my house network, carried out to practice identifying and reporting on common network misconfigurations using open-source tools before persuing a role in Cybersecurity.
