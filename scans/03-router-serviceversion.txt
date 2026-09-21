@@ -1,0 +1,12 @@
+# Nmap 7.991 scan initiated Mon Sep 21 09:07:44 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -p 80,443,5422 -oN scans/03-router-serviceversion.txt 192.168.0.1
+Nmap scan report for 192.168.0.1
+Host is up (0.0040s latency).
+
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     lighttpd
+443/tcp  open  ssl/http lighttpd
+5422/tcp open  http     lighttpd
+MAC Address: 18:35:D1:54:D8:00 (Commscope)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep 21 09:08:04 2026 -- 1 IP address (1 host up) scanned in 19.22 seconds

@@ -1,0 +1,11 @@
+# Nmap 7.991 scan initiated Mon Sep 21 08:46:30 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -p- -T4 --min-rate 500 -oN scans/02-router-fullports.txt 192.168.0.1
+Warning: 192.168.0.1 giving up on port because retransmission cap hit (6).
+Nmap scan report for 192.168.0.1
+Host is up (0.0064s latency).
+Not shown: 49297 filtered tcp ports (no-response), 16236 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 18:35:D1:54:D8:00 (Commscope)
+
+# Nmap done at Mon Sep 21 09:00:06 2026 -- 1 IP address (1 host up) scanned in 816.45 seconds

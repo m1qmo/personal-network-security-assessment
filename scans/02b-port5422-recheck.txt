@@ -1,0 +1,9 @@
+# Nmap 7.991 scan initiated Mon Sep 21 09:07:15 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -p 5422 -oN scans/02b-port5422-recheck.txt 192.168.0.1
+Nmap scan report for 192.168.0.1
+Host is up (0.0041s latency).
+
+PORT     STATE SERVICE
+5422/tcp open  salient-mux
+MAC Address: 18:35:D1:54:D8:00 (Commscope)
+
+# Nmap done at Mon Sep 21 09:07:18 2026 -- 1 IP address (1 host up) scanned in 3.74 seconds
