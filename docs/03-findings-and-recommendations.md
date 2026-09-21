@@ -27,7 +27,7 @@ To reduce the risk I've confirmed that WAN management is disabled so the interfa
 Nmap host discovery overcounted the number of physical devices on the network
 
 ## Evidence:
-scans/01-host-discovery.txt
+1. [Host Discovery](scans/01-host-discovery.txt)
 
 ## Risk rating:
 Low / Informational
